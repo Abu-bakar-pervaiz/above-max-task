@@ -24,8 +24,8 @@ class CompanyStoreRequest extends FormRequest
     {
         return [
             'name' => 'required | min:3',
-            'website' => 'url | unique:companies,website,'.($this->company ? $this->company->id : null),
-            'email' => 'email | unique:companies,email,'.($this->company ? $this->company->id : null),
+            'website' => 'nullable | url | unique:companies,website,'.($this->company ? $this->company->id : null),
+            'email' => 'nullable | email | unique:companies,email,'.($this->company ? $this->company->id : null),
             'logo' => 'image | dimensions:min_width=100,min_height=100 | max:512,'.($this->company ? 'required' : null)
         ];
     }
