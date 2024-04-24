@@ -48,7 +48,7 @@
                         </div>
                     </div>
                     <div class="mb-4">
-                        <button type="submit" class="py-2 px-4 rounded-lg bg-blue-600 text-white w-full">Add</button>
+                        <button type="submit" class="py-2 px-4 rounded-lg bg-blue-600 text-white w-full">Update</button>
                     </div>
                 </form>
             </div>

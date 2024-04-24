@@ -22,12 +22,12 @@
                     </div>
                     <div class="mb-4">
                         <label for="website" class="block text-sm font-medium text-gray-700">Website</label>
-                        <input type="url" required value="{{ old('website') }}" id="website" name="website"
+                        <input type="url" value="{{ old('website') }}" id="website" name="website"
                             class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
                     </div>
                     <div class="mb-4">
                         <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
-                        <input type="email" required value="{{ old('email') }}" id="email" name="email"
+                        <input type="email" value="{{ old('email') }}" id="email" name="email"
                             class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
                     </div>
                     <div class="mb-4">
