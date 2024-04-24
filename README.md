@@ -1,4 +1,4 @@
-# above-max-task
+# Above-Max-Task
 This Laravel project also consist of tailwind and laravel starter kit dependecy so. There are some steps to follow in order check the task properly. That steps are given bellow.
 
 1 - clone the repo and make sure it's main branch is selected on your system <br>
